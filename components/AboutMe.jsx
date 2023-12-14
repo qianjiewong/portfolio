@@ -12,11 +12,16 @@ const TAB_DATA = [
                 <li>React</li>
                 <li>Next.js</li>
                 <li>JavaScript</li>
-                <li>Solidity</li>
-                <li>HTML</li>
                 <li>CSS</li>
                 <li>Tailwind CSS</li>
                 <li>Python</li>
+                <li>C Programming</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>R Studio</li>
+                <li>SQL</li>
+                <li>Adobe Animate</li>
+
           </ul>
         ),
     },
@@ -25,17 +30,8 @@ const TAB_DATA = [
         id: "experiences",
         content: (
           <ul className="list-disc pl-2">
-            <li>ETH Singapore</li>
-            <li>ETH KL</li>
-            <li>ETH Online</li>
-            <li>ETHGlobal Superhack</li>
-            <li>Solana Hyperdrive</li>
-            <li>APUBCC Sparkathon</li>
-            <li>Encode Club</li>
-            <li>Google CTF</li>
-            <li>NUS Grey CTF</li>
-            <li>Tune Protect Hackathon</li>
-            <li>geNFesT Ideathon</li>
+            <li>BAT x APU Ideathon 2023 - 4th Place</li>
+            <li>My Startup Hackaton 2023 - Participate</li>
           </ul>
         ),
     },
@@ -45,7 +41,7 @@ const TAB_DATA = [
         content: (
           <ul className="list-disc pl-2">
                 <li>Asia Pacific University</li>
-                <li>Tsun Jin High School</li>
+                <li>Wesley Methodist School Ipoh International</li>
           </ul>
         ),
     }
@@ -65,13 +61,12 @@ const AboutMe = () => {
         <section className="text-white grid" id="aboutMe">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
                 <div>
-                    <img src="/AboutMe.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }}/>
+                    <img src="/About-Me.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }}/>
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Cyber Security at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in React, Next.js, HTML, CSS, and I'm skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
-                        Additionally, I've ventured into the world of blockchain development, particularly with Solidity, allowing me to build smart contracts for decentralized applications.
-                        My passion for technology and problem-solving has led me to actively participate in 11 hackathons this year, where I primarily serve as a Front End Developer. However, I am not limited to frontend tasks and often take on backend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
+                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Computer Science at APU, where I have been honing my skills in various technologies. I am familiar in backend development, with expertise in Java, C++, C, Python. Besides that,I'm skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
+                        My passion for technology and problem-solving has led me to actively participate in hackathons and ideathon this year. However, I am not limited to backend tasks and often take on fronted responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 
