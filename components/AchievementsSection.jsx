@@ -22,7 +22,7 @@ const AchievementsSection = () => {
             {achievementsList.map((achievement) => {
                 return(
                     <div 
-                        className="flex flex-col items-center justify-center mx-4">
+                        key={index} className="flex flex-col items-center justify-center mx-4">
                         <h2 className="text-white text-4xl font-bold">
                             {achievement.value}
                         </h2>

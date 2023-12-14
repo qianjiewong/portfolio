@@ -1,6 +1,7 @@
 import React from "react";
 import { useTransition, useState } from "react";
 import TabButton from "./TabButton";
+import Image from "next/image";
 
 //1d
 const TAB_DATA = [
@@ -61,11 +62,11 @@ const AboutMe = () => {
         <section className="text-white grid" id="aboutMe">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
                 <div>
-                    <img src="/About-Me.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }}/>
+                    <Image src="/About-Me.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }} />
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Computer Science at APU, where I have been honing my skills in various technologies. I am familiar in backend development, with expertise in Java, C++, C, Python. Besides that,I'm skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
+                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Computer Science at APU, where I have been honing my skills in various technologies. I am familiar in backend development, with expertise in Java, C++, C, Python. Besides that,I am skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
                         My passion for technology and problem-solving has led me to actively participate in hackathons and ideathon this year. However, I am not limited to backend tasks and often take on fronted responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
