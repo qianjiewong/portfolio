@@ -18,7 +18,7 @@ const EmailSection = () => {
                 </p>
                 <h4 className="pb-3 mt-6">Let&apos;s get in touch!</h4>
                 <div className=" flex flex-row gap-4 mt-6">
-                    <Link href="https://github.com/qianjiewongn">
+                    <Link href="https://github.com/qianjiewong">
                         <Image src={GithubIcon} alt="Github Icon" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/qian-jie-wong-53b75a288">
