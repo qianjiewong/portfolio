@@ -58,9 +58,9 @@ const HeroSection = () => {
               </Link>
              
               <Link
-                href="https://drive.google.com/file/d/18gjP4uAHAPTR5t1vCCgAxwxtPfoITt9R/view?usp=sharing"
+                href="https://www.linkedin.com/in/qian-jie-wong-53b75a288/"
                 className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400">
-                <span className="text-xl text-white">View my Resume</span>
+                <span className="text-xl text-white">Connect with me</span>
               </Link>
           </motion.div>
         <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-24">

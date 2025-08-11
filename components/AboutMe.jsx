@@ -11,10 +11,9 @@ const TAB_DATA = [
         content: (
           <ul className="list-disc pl-2">
                 <li>React</li>
+                <li>Ionic Angular</li>
                 <li>Next.js</li>
                 <li>JavaScript</li>
-                <li>CSS</li>
-                <li>Tailwind CSS</li>
                 <li>Python</li>
                 <li>C Programming</li>
                 <li>C++</li>
@@ -33,6 +32,7 @@ const TAB_DATA = [
           <ul className="list-disc pl-2">
             <li>BAT x APU Ideathon 2023 - 4th Place</li>
             <li>My Startup Hackaton 2023 - Participate</li>
+            <li>APU Best Project Award 2025 - Bachelor of Science (Honours) in Computer Science</li>
           </ul>
         ),
     },
@@ -66,8 +66,8 @@ const AboutMe = () => {
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I have completed my degree in Computer Science at APU, where I have been honing my skills in various technologies. I am familiar in backend development, with expertise in Java, C++, C, Python. Besides that,I am skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
-                        My passion for technology and problem-solving has led me to actively participate in hackathons and ideathon this year. I am not limited to backend tasks and often take on fronted responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
+                    <p className="text-base text-justify lg:text-lg">I have completed my degree in Computer Science at APU, where I have been honing my skills in various technologies. I am familiar in backend development, with expertise in C, Python and JavaScript. Besides that,I am skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
+                        I am not limited to backend tasks and often take on fronted responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 
